@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="../Imagenes/logo-png.png">
+
+    <!-- Normalize V8.0.1 -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <!-- Bootstrap V4.3 -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- Bootstrap Material Design V4.0 -->
+    <link rel="stylesheet" href="./css/bootstrap-material-design.min.css">
+
+    <!-- Font Awesome V5.9.0 -->
+    <link rel="stylesheet" href="./css/all.css">
+
+    <!-- Sweet Alerts V8.13.0 CSS file -->
+    <link rel="stylesheet" href="./css/sweetalert2.min.css">
+
+    <!-- Sweet Alert V8.13.0 JS file-->
+    <script src="./js/sweetalert2.min.js"></script>
+
+    <!-- jQuery Custom Content Scroller V3.1.5 -->
+    <link rel="stylesheet" href="./css/jquery.mCustomScrollbar.css">
+
+    <!-- General Styles -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+
+
+</head>
+
+<body>
+
+    <!-- Main container -->
+    <main class="full-box main-container">
+        <!-- Nav lateral -->
+        <section class="full-box nav-lateral">
+            <div class="full-box nav-lateral-bg show-nav-lateral"></div>
+            <div class="full-box nav-lateral-content">
+                <figure class="full-box nav-lateral-avatar">
+                    <i class="far fa-times-circle show-nav-lateral"></i>
+                    <img src="./assets/avatar/Avatar.png" class="img-fluid" alt="Avatar">
+                    <figcaption class="roboto-medium text-center">
+                        Jorge<br><small class="roboto-condensed-light">Docente</small>
+                    </figcaption>
+                </figure>
+                <div class="full-box nav-lateral-bar"></div>
+                <nav class="full-box nav-lateral-menu">
+                    <ul>
+                        <li>
+                            <a href="home_docente.html"><i class="fab fa-dashcube fa-fw"></i> &nbsp; Inicio</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-btn-submenu"><i class="fas fa-user-graduate"></i> &nbsp; Registro de notas <i class="fas fa-chevron-down"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="asignar_notas.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Asignar Notas</a>
+                                </li>
+                                <li>
+                                    <a href="modificar_notas.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Modificar Notas</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <li>
+                                <a href="grupo-lista-docente.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de grupos</a>
+                            </li>
+                        </li>
+                        <li>
+                            <li>
+                                <a href="horario_docente.html"><i class="far fa-clock"></i> &nbsp; Horario de clases</a>
+                            </li>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Page content -->
+        <section class="full-box page-content">
+            <nav class="full-box navbar-info">
+                <a href="#" class="float-left show-nav-lateral">
+                    <i class="fas fa-exchange-alt"></i>
+                </a>
+
+                <a href="#" class="btn-exit-system">
+                    <i class="fas fa-power-off"></i>
+                </a>
+            </nav>
+
+            <!-- Page header -->
+            <div class="full-box page-header">
+                <h3 class="text-left">
+                    <i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Modificar Notas
+                </h3>
+                <p class="text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nostrum rerum animi natus beatae ex. Culpa blanditiis tempore amet alias placeat, obcaecati quaerat ullam, sunt est, odio aut veniam ratione.
+                </p>
+
+                <div>
+                    <select name="Semestre" class="form-control" id="">
+                        <option value="" selected="">Seleccione el semestre</option>
+                        <option value="Primer">Semestre I</option>
+                        <option value="Segundo">Semestre II</option>
+                    </select>
+                    <select name="parcial" class="form-control" id="">
+                        <option value="" selected="">Seleccione el parcial</option>
+                        <option value="Primer">Primer parcial</option>
+                        <option value="Segundo">Segundo parcial</option>
+                    </select>
+
+                    <select name="Grupo" class="form-control" id="">
+                        <option value="" selected="">Seleccione el grupo</option>
+                        <option value="grado">Septimo A</option>
+                        <option value="grado">Septimo B</option>
+                        <option value="grado">Octavo A</option>
+                        <option value="grado">Octavo B</option>
+                        <option value="grado">Noveno A</option>
+                        <option value="grado">Noveno B</option>
+                    </select>
+                </div>
+
+            </div>
+
+
+
+            <!-- Content here-->
+            <div class="container-fluid">
+                <div class="table-responsive">
+                    <table class="table table-dark table-sm">
+                        <thead>
+                            <tr class="text-center roboto-medium">
+                                <th>Grupo</th>
+                                <th>Estudiante</th>
+                                <th>Materia</th>
+                                <th>Nota</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="text-center">
+                                <td>Decimo A</td>
+                                <td>Jonathan Mejia</td>
+                                <td>Lengua y Literatura</td>
+                                <td><input type="number"></td>
+                            </tr>
+                            <tr class="text-center">
+                                <td>Decimo A</td>
+                                <td>Jonathan Mejia</td>
+                                <td>Lengua y Literatura</td>
+                                <td><input type="number"></td>
+                            </tr>
+                            <tr class="text-center">
+                                <td>Decimo A</td>
+                                <td>Jonathan Mejia</td>
+                                <td>Lengua y Literatura</td>
+                                <td><input type="number"></td>
+                            </tr>
+                            <tr class="text-center">
+                                <td>Decimo A</td>
+                                <td>Jonathan Mejia</td>
+                                <td>Lengua y Literatura</td>
+                                <td><input type="number"></td>
+                            </tr>
+
+                            <tr class="text-center">
+                                <td>Decimo A</td>
+                                <td>Jonathan Mejia</td>
+                                <td>Lengua y Literatura</td>
+                                <td><input type="number"></td>
+                            </tr>
+
+                            <tr class="text-center">
+                                <td>Decimo A</td>
+                                <td>Jonathan Mejia</td>
+                                <td>Lengua y Literatura</td>
+                                <td><input type="number"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="text-center" style="margin-top: 40px;">
+                        <button type="submit" class="btn btn-raised btn-success btn-sm"><i class="fas fa-sync-alt"></i> &nbsp; Actualizar Nota</button>
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!--=============================================
+	=            Include JavaScript files           =
+	==============================================-->
+    <!-- jQuery V3.4.1 -->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+
+    <!-- popper -->
+    <script src="./js/popper.min.js"></script>
+
+    <!-- Bootstrap V4.3 -->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- jQuery Custom Content Scroller V3.1.5 -->
+    <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <!-- Bootstrap Material Design V4.0 -->
+    <script src="./js/bootstrap-material-design.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('body').bootstrapMaterialDesign();
+        });
+    </script>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
